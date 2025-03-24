@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math is Fun!"
+        android:textSize="24sp"
+        android:textColor="#E6A86A"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modes"
+        android:textSize="18sp"
+        android:textColor="#D77B5E"
+        android:textStyle="bold"
+        android:paddingTop="8dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:paddingTop="16dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="123\nCount"
+            android:backgroundTint="#B8E6C8"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Match"
+            android:backgroundTint="#A3D5E6"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Pattern"
+            android:backgroundTint="#F5B2B2"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Settings"
+            android:backgroundTint="#F5D18D"/>
+    </GridLayout>
+
+</LinearLayout>
