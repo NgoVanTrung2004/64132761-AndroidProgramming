@@ -7,36 +7,77 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center|top"
-    tools:context=".MainActivity">
-    
-    ‹Button
-    android:id="@+id/nutS01"
-    android: text="NÚT SỐ 1"
-    android: textSize="20dp"
-    android: textColor="#FFEB3B"
-    android:background="@color/purple_200"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="10dp"
-    />
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
 
-    ‹Button
-    android:id="@+id/nutS02"
-    android: text="NÚT SỐ 2"
-    android:textSize="20dp"
-    android:textColor="#EFEEE2"
-    android:background="@color/purple_200"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    ‹Button
-    android:id="@+id/nutS03"
-    android: text="NÚT SỐ 3"
-    android: textSize="20dp"
-    android:textColor="#EFEEE2"
-    android:background="@color/purple_200"
-    android:layout_width=™match_parentf
-    android:layout_height="wrap_content"
-    android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="#860B9D"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="#DEE0ED"
+            android:drawableLeft="@color/black"
+            android:drawablePadding="8dp"
+            android:hint="Username"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="#9B17B3" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#DEE0ED"
+            android:drawableLeft="@color/black"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/dangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#B908D7"
+            android:text="Đăng Nhập"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dangky"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#B908D7"
+            android:text="Đăng Ký"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/khac"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#860B9D"
+            android:text="Khác"
+            android:textSize="20sp" />
+    </LinearLayout>
 </LinearLayout>
